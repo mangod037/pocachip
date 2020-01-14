@@ -1,0 +1,21 @@
+{
+  "name": "pocachip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "record": "node record.js",
+    "order": "env-cmd -f ./app.env node order.js",
+    "start": "env-cmd -f ./app.env node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^3.4.0",
+    "chalk": "^3.0.0",
+    "node-audiorecorder": "^1.4.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1"
+  }
+}
